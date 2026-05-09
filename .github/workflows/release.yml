@@ -2,7 +2,7 @@ name: Release Hooks
 
 on:
   push:
-    tags: ["hooks-v*"]
+    tags: ["*"]
   workflow_dispatch:
 
 jobs:
