@@ -1069,8 +1069,8 @@ export async function loadLocalModules() {
 
 export async function loadRemoteModules() {
   const [vaultA, vaultB] = await Promise.all([
-    fetchJson<_Vault>("https://raw.githubusercontent.com/veryboringhwl/v3/main/modules/vault.json"),
-    fetchJson<_Vault>("https://raw.githubusercontent.com/veryboringhwl/v3/main/pkgs/vault.json"),
+    fetchJson<_Vault>("https://raw.githubusercontent.com/veryboringhwl/modules/main/vault.json"),
+    fetchJson<_Vault>("https://raw.githubusercontent.com/veryboringhwl/pkgs/main/vault.json"),
   ]);
 
   const remoteModules = [vaultA, vaultB]
