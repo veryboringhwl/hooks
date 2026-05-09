@@ -1,0 +1,38 @@
+name: Release Hooks
+
+on:
+  push:
+    tags: ["hooks-v*"]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Compile TypeScript (tsgo)
+        run: bunx tsgo --outDir dist
+
+      - name: Package hooks into tar.gz
+        run: tar -czf hooks.tar.gz -C dist .
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: hooks.tar.gz
+          fail_on_unmatched_files: true
