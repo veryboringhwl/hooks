@@ -34,11 +34,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-
-      - name: Install Deno
-        uses: denoland/setup-deno@v2
+      - parallel:
+          - name: Checkout
+            uses: actions/checkout@v7
+          - name: Install Deno
+            uses: denoland/setup-deno@v2
 
       - name: Compile TypeScript
         run: deno task build

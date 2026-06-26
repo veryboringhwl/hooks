@@ -1,8 +1,8 @@
 {
   "tasks": {
     "build": "deno transpile **/*.ts --outdir dist",
-    "fmt": "deno x oxfmt -c .oxfmtrc.json",
-    "lint": "deno x oxlint -c .oxlintrc.json",
+    "fmt": "deno x npm:oxfmt -c .oxfmtrc.json",
+    "lint": "deno x npm:oxlint -c .oxlintrc.json",
     "check": "deno check",
     "release": {
       "dependencies": ["fmt", "lint", "check"]
