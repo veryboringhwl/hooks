@@ -11,19 +11,19 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: denoland/setup-deno@v2
       - name: Check formatting
         run: deno run -A npm:oxfmt --check
       - name: Lint
-        run: deno run -A npm:oxfmt --deny-warnings
+        run: deno run -A npm:oxlint --deny-warnings
 
   typecheck:
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: denoland/setup-deno@v2
       - name: Type check
         run: deno check
@@ -42,11 +42,10 @@ jobs:
         include:
           - language: actions
           - language: javascript-typescript
-          - language: rust
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v4
         with:

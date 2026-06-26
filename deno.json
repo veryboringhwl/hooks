@@ -3,8 +3,9 @@
     "build": "deno transpile **/*.ts",
     "fmt": "deno x oxfmt -c .oxfmtrc.json",
     "lint": "deno x oxlint -c .oxlintrc.json",
+    "check": "deno check",
     "release": {
-      "dependencies": ["fmt", "lint", "build"]
+      "dependencies": ["fmt", "lint", "check"]
     }
   },
   "compilerOptions": {
@@ -26,7 +27,6 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
-  "nodeModulesDir": "auto",
   "lint": {
     "exclude": ["**/*"]
   },

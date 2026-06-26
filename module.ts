@@ -2,10 +2,8 @@
 import { ModuleManager } from "./protocol.js";
 // @deno-types="./static.ts"
 import { SPOTIFY_VERSION } from "./static.js";
-// @ts-expect-error
 // @deno-types="./std/collections.ts"
 import { deepMerge } from "./std/collections.js";
-// @ts-expect-error
 // @deno-types="./std/semver.ts"
 import { parse, parseRange, satisfies } from "./std/semver.js";
 // @deno-types="./transform.ts"
@@ -1054,7 +1052,7 @@ export async function loadLocalModules() {
   const localModules = [await fetchJson<_Vault>("/modules/vault.json")]
     .filter(Boolean)
     .reduceRight<_Vault["modules"]>(
-      (acc, vault) => deepMerge(acc, vault?.modules, { arrays: "merge" }),
+      (acc, vault) => deepMerge(acc, vault?.modules ?? {}, { arrays: "merge" }),
       {}
     );
 
@@ -1078,7 +1076,7 @@ export async function loadRemoteModules() {
   const remoteModules = [vaultA, vaultB]
     .filter(Boolean)
     .reduceRight<_Vault["modules"]>(
-      (acc, vault) => deepMerge(acc, vault?.modules, { arrays: "merge" }),
+      (acc, vault) => deepMerge(acc, vault?.modules ?? {}, { arrays: "merge" }),
       {}
     );
 
