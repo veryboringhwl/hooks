@@ -1,6 +1,7 @@
 # Hooks
 
-Runtime hooks injected into Spotify's desktop client. Handles module loading, CSS/JS transforms, mixins, and the protocol handler.
+Runtime hooks injected into Spotify's desktop client. Handles module loading,
+CSS/JS transforms, mixins, and the protocol handler.
 
 ## Build
 

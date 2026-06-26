@@ -7,7 +7,7 @@ import {
   INTERNAL_MIXIN_LOADER,
   INTERNAL_TRANSFORMER,
   loadLocalModules,
-  loadRemoteModules,
+  loadRemoteModules
 } from "./module.js";
 
 await Promise.all([mixin(INTERNAL_TRANSFORMER), loadLocalModules()]);
@@ -18,7 +18,7 @@ console.timeEnd("onSpotifyPreInit");
 console.time("onSpotifyInit");
 const [modulesPath, snapshotPath] = await Promise.all([
   applyTransforms("/xpui-modules.js"),
-  applyTransforms("/xpui-snapshot.js"),
+  applyTransforms("/xpui-snapshot.js")
 ]);
 
 // must load modules before snapshot

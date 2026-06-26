@@ -2,6 +2,8 @@
 import { RootModule } from "./module.js";
 // @deno-types="./protocol.ts"
 import { handleProtocol } from "./protocol.js";
+// @deno-types="./static.ts"
+import { HOOKS_VERSION } from "./static.js";
 // @deno-types="./transform.ts"
 import { SourceFile, type Transformer } from "./transform.js";
 
@@ -73,30 +75,30 @@ export default async function (transformer: Transformer) {
     (emit) => (str) => {
       str = str.replace(
         /(=)(function\([\w$,]+\)\{)(?=(?:(?!function\()[\s\S])*?[\w$]+=Error\(\))/,
-        "$1async $2",
+        "$1async $2"
       );
 
       str = str.replace(
         /(?<=[\w$]+=)([\w$.]+\+[\w$.]+\([^)]+\))(?=,[\w$]+=Error\(\))/,
-        "await __applyTransforms($1)",
+        "await __applyTransforms($1)"
       );
 
       str = str.replace(
         /new Promise\(function(\([\w$,]+\)\{var [\w$]+=[\w$]+\.miniCssF\()/,
-        "new Promise(async function$1",
+        "new Promise(async function$1"
       );
 
       str = str.replace(
         /(?<=\.miniCssF\([^)]+\),[\w$]+=)([\w$.]+\+[\w$]+)/,
-        "await __applyTransforms($1)",
+        "await __applyTransforms($1)"
       );
 
       emit();
       return str;
     },
     {
-      glob: /^\/xpui-snapshot\.js/,
-    },
+      glob: /^\/xpui-snapshot\.js/
+    }
   );
 
   //  Fixes some components' displayNames not being available as they're forwarded by the React profiler.
@@ -107,14 +109,14 @@ export default async function (transformer: Transformer) {
 
       str = str.replace(
         /return (\w+)\.displayName=`profiler\(/,
-        "$1.toString=arguments[0].toString.bind(arguments[0]);$&",
+        "$1.toString=arguments[0].toString.bind(arguments[0]);$&"
       );
 
       return str;
     },
     {
-      glob: /^\/xpui-modules\.js/,
-    },
+      glob: /^\/xpui-modules\.js/
+    }
   );
 
   // sentry works if spotif ver is <30 days so make it never
@@ -126,29 +128,26 @@ export default async function (transformer: Transformer) {
       return str;
     },
     {
-      glob: /^\/xpui-snapshot\.js/,
-    },
+      glob: /^\/xpui-snapshot\.js/
+    }
   );
 
-  // transformer(
-  //   (emit) => (str) => {
-  //     emit();
+  transformer(
+    (emit) => (str) => {
+      emit();
 
-  //     str = str.replace(
-  //       /("incognito-enabled":[a-zA-Z_\$][\w\$]*)/,
-  //       '$1,employee:"1"',
-  //     );
-  //     str = str.replace(
-  //       /([a-zA-Z_\$][\w\$]*)\("app\.enable-developer-mode",([a-zA-Z_\$][\w\$]*)\)/,
-  //       '$1("app.enable-developer-mode",$2);$1("app-developer",$2?2:0)',
-  //     );
+      str = str.replace(
+        /(0,\s*([a-zA-Z_$][\w$]*)\.jsx\)\("div",\s*\{[\s\S]*?\}\)),\s*!!([a-zA-Z_$][\w$]*)\s*&&(?=[\s\S]*?"⎘")/,
+        `$1, (0, $2.jsx)("div", { children: \`Spicetify App: v\${globalThis.__SPICETIFY_APP_VERSION__}\` }), (0, $2.jsx)("div", { children: "Spicetify Hooks: v${HOOKS_VERSION}" }), !!$3 &&`
+      );
 
-  //     return str;
-  //   },
-  //   {
-  //     glob: /^\/xpui\.js/,
-  //   },
-  // );
+      return str;
+    },
+    {
+      glob: /^\/xpui-desktop-modals\.js/,
+      wait: false
+    }
+  );
 
   transformer(
     (emit) => (str) => {
@@ -156,14 +155,14 @@ export default async function (transformer: Transformer) {
 
       str = str.replace(
         /(([a-zA-Z_$][\w$]*)\.data\.type===(?:[a-zA-Z_$][\w$]*\.){2}NAVIGATION)\s*\?/,
-        "$1&&!__interceptNavigationControlMessage($2)?",
+        "$1&&!__interceptNavigationControlMessage($2)?"
       );
 
       return str;
     },
     {
-      glob: /^\/xpui-snapshot\.js/,
-    },
+      glob: /^\/xpui-snapshot\.js/
+    }
   );
 
   transformer(
@@ -176,7 +175,7 @@ export default async function (transformer: Transformer) {
     },
     {
       glob: /\.js$/,
-      wait: false,
-    },
+      wait: false
+    }
   );
 }

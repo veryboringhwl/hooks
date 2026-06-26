@@ -2,37 +2,54 @@ name: Release Hooks
 
 on:
   push:
-    tags: ["*"]
+    tags: ["v*"]
   workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release version (without v prefix)"
+        required: true
 
 jobs:
+  setup:
+    name: Setup
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+    permissions: {}
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - name: Parse tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tag=${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${{ github.ref_name }}" | sed 's/^v//' >> "$GITHUB_OUTPUT"
+          fi
+
   publish:
     name: Publish
     runs-on: ubuntu-latest
-
+    needs: setup
     permissions:
       contents: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
 
-      - name: Install dependencies
-        run: bun install
+      - name: Compile TypeScript
+        run: deno transpile **/*.ts --outdir dist
 
-      - name: Compile TypeScript (tsgo)
-        run: bunx tsgo --outDir dist
-
-      - name: Package hooks into tar.gz
-        run: tar -czf hooks.tar.gz -C dist .
-
+      # pacman on arch linux uses lvl 20
+      # but 20-22 isnt multithreaded and takes ages
+      - name: Package hooks into tar.zst
+        run: tar -I 'zstd -19 -T0' -cf hooks.tar.zst -C dist .
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
-          files: hooks.tar.gz
+          tag_name: v${{ needs.setup.outputs.tag }}
+          files: hooks.tar.zst
           fail_on_unmatched_files: true

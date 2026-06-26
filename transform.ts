@@ -1,11 +1,11 @@
-import type { MixinLoader } from "./module.ts";
-
 // @deno-types="./util/fetch.ts"
 import { fetchText } from "./util/fetch.js";
 
+import type { MixinLoader } from "./module.ts";
+
 const MimeTypes = {
   ".js": "application/javascript",
-  ".css": "text/css",
+  ".css": "text/css"
 } as const;
 
 export class SourceFile {
@@ -60,7 +60,7 @@ export const createTransformer =
   (module: MixinLoader) =>
   <A = void>(
     transform: (emit: Thunk<A>) => (input: string, path: string) => string,
-    { glob = /(?:)/, wait = true }: MixinProps,
+    { glob = /(?:)/, wait = true }: MixinProps
   ) => {
     const { promise, resolve } = Promise.withResolvers<A>();
 

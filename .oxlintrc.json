@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "oxc"],
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "off",
+    "prefer-const": ["error", { "destructuring": "all" }],
+    "curly": ["error", "multi-line"],
+    "prefer-destructuring": ["error", { "VariableDeclarator": { "array": false, "object": true } }],
+    "unicode-bom": ["error", "never"],
+    "typescript/consistent-indexed-object-style": ["error", "record"],
+    "no-unused-vars": "error"
+  }
+}

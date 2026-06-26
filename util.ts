@@ -32,7 +32,7 @@ export const findMatchingPos = (
   start: number,
   direction: 1 | -1,
   pair: [string, string],
-  scopes: number,
+  scopes: number
 ) => {
   let l = scopes;
   let i = start + direction;

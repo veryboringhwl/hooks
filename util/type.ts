@@ -15,9 +15,20 @@ interface PropertyDef {
 
 type StoreNode =
   | { kind: "array"; id: string; nameHints: string[]; elementType?: TypeNode }
-  | { kind: "map"; id: string; nameHints: string[]; keyType?: TypeNode; valueType?: TypeNode }
+  | {
+      kind: "map";
+      id: string;
+      nameHints: string[];
+      keyType?: TypeNode;
+      valueType?: TypeNode;
+    }
   | { kind: "set"; id: string; nameHints: string[]; valueType?: TypeNode }
-  | { kind: "object"; id: string; nameHints: string[]; props: Map<string, PropertyDef> }
+  | {
+      kind: "object";
+      id: string;
+      nameHints: string[];
+      props: Map<string, PropertyDef>;
+    }
   | {
       kind: "function";
       id: string;
@@ -43,7 +54,7 @@ class TypeGenerator {
     [Uint8Array, "Uint8Array"],
     [Int32Array, "Int32Array"],
     ...(typeof HTMLElement !== "undefined" ? [[HTMLElement, "HTMLElement"] as const] : []),
-    ...(typeof Element !== "undefined" ? [[Element, "Element"] as const] : []),
+    ...(typeof Element !== "undefined" ? [[Element, "Element"] as const] : [])
   ] as [new (...args: any[]) => any, string][]);
 
   private static readonly IGNORED_ROOT_KEYS = new Set<string>(["getRegistry", "registry"]);
@@ -54,7 +65,7 @@ class TypeGenerator {
     "arguments",
     "length",
     "name",
-    "prototype",
+    "prototype"
   ]);
 
   private store = new Map<string, StoreNode>();
@@ -68,7 +79,7 @@ class TypeGenerator {
 
   constructor(
     private rootObject: any,
-    private rootName: string,
+    private rootName: string
   ) {
     try {
       // Specifically target Platform.username
@@ -93,7 +104,9 @@ class TypeGenerator {
 
   private isMergeableObject(val: any): boolean {
     if (!val || typeof val !== "object") return false;
-    if (Array.isArray(val) || val instanceof Map || val instanceof Set) return false;
+    if (Array.isArray(val) || val instanceof Map || val instanceof Set) {
+      return false;
+    }
     for (const [ctor] of TypeGenerator.KNOWN_CONSTRUCTORS) {
       if (val instanceof ctor) return false;
     }
@@ -142,7 +155,7 @@ class TypeGenerator {
       nodeDef.keyType = this.processCollectionElements(Array.from(value.keys()), `${safePath}.Key`);
       nodeDef.valueType = this.processCollectionElements(
         Array.from(value.values()),
-        `${safePath}.Value`,
+        `${safePath}.Value`
       );
       return ref;
     }
@@ -152,7 +165,7 @@ class TypeGenerator {
       this.store.set(id, nodeDef);
       nodeDef.valueType = this.processCollectionElements(
         Array.from(value.values()),
-        `${safePath}.Item`,
+        `${safePath}.Item`
       );
       return ref;
     }
@@ -165,7 +178,7 @@ class TypeGenerator {
         props: new Map<string, PropertyDef>(),
         arity: value.length,
         isAsync: this.isAsyncFunc(value),
-        returnType: this.inferFunctionReturn(value, context, safePath),
+        returnType: this.inferFunctionReturn(value, context, safePath)
       };
       this.store.set(id, funcNodeDef);
       this.extractProperties(value, funcNodeDef, safePath);
@@ -176,7 +189,7 @@ class TypeGenerator {
       kind: "object" as const,
       id,
       nameHints: [safePath],
-      props: new Map<string, PropertyDef>(),
+      props: new Map<string, PropertyDef>()
     };
     this.store.set(id, objNodeDef);
     this.extractProperties(value, objNodeDef, safePath);
@@ -186,7 +199,7 @@ class TypeGenerator {
   private extractProperties(
     target: any,
     nodeDef: { props: Map<string, PropertyDef> },
-    path: string,
+    path: string
   ): void {
     let currentProto = target;
 
@@ -219,7 +232,10 @@ class TypeGenerator {
         }
 
         if (!nodeDef.props.has(cleanKey)) {
-          let pType = this.extract(propVal, `${path}.${cleanKey}`, { owner: target, key });
+          let pType = this.extract(propVal, `${path}.${cleanKey}`, {
+            owner: target,
+            key
+          });
           const isOpt = propVal === undefined;
 
           if (pType.kind === "primitive" && pType.type === "undefined") {
@@ -229,7 +245,7 @@ class TypeGenerator {
           nodeDef.props.set(cleanKey, {
             type: pType,
             isOptional: isOpt,
-            isReadonly: !desc.writable && !desc.set,
+            isReadonly: !desc.writable && !desc.set
           });
         }
       }
@@ -251,7 +267,10 @@ class TypeGenerator {
 
     for (const item of items) {
       if (item === undefined || item === null) {
-        types.push({ kind: "primitive", type: item === null ? "null" : "undefined" });
+        types.push({
+          kind: "primitive",
+          type: item === null ? "null" : "undefined"
+        });
       } else if (this.visited.has(item)) {
         const ref = this.visited.get(item);
         if (ref) {
@@ -287,7 +306,7 @@ class TypeGenerator {
       kind: "object" as const,
       id: newId,
       nameHints: [path],
-      props: new Map<string, PropertyDef>(),
+      props: new Map<string, PropertyDef>()
     };
     this.store.set(newId, nodeDef);
 
@@ -330,7 +349,10 @@ class TypeGenerator {
             } else {
               propVal = desc.value;
             }
-            keyMap.set(cleanKey, { value: propVal, isReadonly: !desc.writable && !desc.set });
+            keyMap.set(cleanKey, {
+              value: propVal,
+              isReadonly: !desc.writable && !desc.set
+            });
           }
         }
         currentProto = Object.getPrototypeOf(currentProto);
@@ -368,7 +390,7 @@ class TypeGenerator {
       nodeDef.props.set(key, {
         type: mergedNestedType,
         isOptional,
-        isReadonly,
+        isReadonly
       });
     }
 
@@ -399,7 +421,7 @@ class TypeGenerator {
 
     if (unique.length > 1) {
       unique = unique.filter(
-        (t) => !(t.kind === "primitive" && (t.type === "unknown" || t.type === "any")),
+        (t) => !(t.kind === "primitive" && (t.type === "unknown" || t.type === "any"))
       );
     }
 
@@ -436,7 +458,7 @@ class TypeGenerator {
   private inferFunctionReturn(
     func: (...args: any[]) => any,
     context: ExtractContext | null,
-    path: string,
+    path: string
   ): TypeNode | null {
     if (!context || context.owner !== this.rootObject) return null;
     if (func.length !== 0) return null;
@@ -455,7 +477,7 @@ class TypeGenerator {
   private assignNames(): void {
     const usedNames = new Set<string>();
     const rootEntry = Array.from(this.store.entries()).find(([_, node]) =>
-      node.nameHints.includes(this.rootName),
+      node.nameHints.includes(this.rootName)
     );
 
     for (const [id, node] of this.store.entries()) {
@@ -480,7 +502,9 @@ class TypeGenerator {
         .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1) : ""))
         .join("");
 
-      if (!baseName) baseName = `Unknown${node.kind.charAt(0).toUpperCase() + node.kind.slice(1)}`;
+      if (!baseName) {
+        baseName = `Unknown${node.kind.charAt(0).toUpperCase() + node.kind.slice(1)}`;
+      }
 
       let finalName = baseName;
       let counter = 2;
@@ -520,9 +544,13 @@ class TypeGenerator {
       const exportStr = isRoot ? "export " : "";
 
       if (node.kind === "array") {
-        declaration = `${exportStr}type ${name} = Array<${this.resolveTypeString(node.elementType)}>;`;
+        declaration = `${exportStr}type ${name} = Array<${this.resolveTypeString(
+          node.elementType
+        )}>;`;
       } else if (node.kind === "map") {
-        declaration = `${exportStr}type ${name} = Map<${this.resolveTypeString(node.keyType)}, ${this.resolveTypeString(node.valueType)}>;`;
+        declaration = `${exportStr}type ${name} = Map<${this.resolveTypeString(
+          node.keyType
+        )}, ${this.resolveTypeString(node.valueType)}>;`;
       } else if (node.kind === "set") {
         declaration = `${exportStr}type ${name} = Set<${this.resolveTypeString(node.valueType)}>;`;
       } else if (node.kind === "object" || node.kind === "function") {
@@ -569,7 +597,7 @@ class TypeGenerator {
     }
 
     definitions.sort((a, b) =>
-      a.name === this.rootName ? -1 : b.name === this.rootName ? 1 : a.name.localeCompare(b.name),
+      a.name === this.rootName ? -1 : b.name === this.rootName ? 1 : a.name.localeCompare(b.name)
     );
 
     const header = `// Auto-generated at ${new Date().toISOString()} on Spotify Version: ${String(Platform?.version || "Unknown")}`;

@@ -177,16 +177,16 @@ type GetAdManagersReturnAdOpportunityLoggerClientTransportCall = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetAdManagersReturnAdOpportunityLoggerClientTransportCallSingle = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnAdOpportunityLoggerClientTransportCallStream = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAdOpportunityLoggerClientTransportEmitTrafficEvent = (arg0: any) => unknown;
@@ -196,7 +196,7 @@ type GetAdManagersReturnAdOpportunityLoggerClientTransportOnCancel = () => unkno
 type GetAdManagersReturnAdOpportunityLoggerClientTransportOnSend = () => unknown;
 
 type GetAdManagersReturnAdOpportunityLoggerClientTransportSubscribeToTraffic = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnAdOpportunityLoggerClientTransportTrafficSubscribers = Set<unknown>;
@@ -299,24 +299,24 @@ interface GetAdManagersReturnAudioInStreamApiAdsCoreConnector {
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorClearSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorCreateSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorEnableSlot = (arg0: any) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorFetchSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorGetAd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorGetAdState = () => unknown;
@@ -331,41 +331,41 @@ type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorLogAudioVolume = (arg0: 
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorPrepareNextContextSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorPutTargeting = (arg0: any) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorRemoveRequestHeader = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSetRequestHeader = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSkipToNextWithOverride = () => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSubscribeToAdFormat = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSubscribeToInStreamAds = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSubscribeToProductState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSubscribeToSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorSubscribeToState = (arg0: any) => unknown;
@@ -374,11 +374,11 @@ type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorTriggerSlot = (arg0: any
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorUpdateAdServerEndpoint = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiAdsCoreConnectorUpdateAdStateEndpoint = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnAudioInStreamApiDisable = () => unknown;
@@ -469,33 +469,33 @@ interface GetAdManagersReturnBillboardBillboardApi {
 
 type GetAdManagersReturnBillboardBillboardApiCreateSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnBillboardBillboardApiGetSlotConfiguration = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnBillboardBillboardApiPatchTargeting = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnBillboardBillboardApiPostEvent = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnBillboardBillboardApiPostToSlot = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnBillboardBillboardApiSubscribeToSlotType = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnBillboardBillboardApiTriggerSlotClearAll = (arg0: any) => Promise<unknown>;
@@ -597,17 +597,17 @@ type GetAdManagersReturnEmbeddedAdAdEventLoggerEventsClientOptions = Record<stri
 
 type GetAdManagersReturnEmbeddedAdAdEventLoggerEventsClientPostEvent = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedAdAdEventLoggerEventsClientPostUnmanagedEvent = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedAdAdEventLoggerEventsClientSubEvent = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedAdAdEventLoggerLog = (arg0: any, arg1: any, arg2: any) => unknown;
@@ -615,7 +615,7 @@ type GetAdManagersReturnEmbeddedAdAdEventLoggerLog = (arg0: any, arg1: any, arg2
 type GetAdManagersReturnEmbeddedAdAdEventLoggerLogItemEvent = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnEmbeddedAdEmbeddedAdErrorLogger {
@@ -626,7 +626,7 @@ interface GetAdManagersReturnEmbeddedAdEmbeddedAdErrorLogger {
 type GetAdManagersReturnEmbeddedAdEmbeddedAdErrorLoggerLog = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetAdManagersReturnEmbeddedAdEmbeddedAdManager {
@@ -657,14 +657,14 @@ type GetAdManagersReturnEmbeddedAdEmbeddedAdManagerEmbeddedAdsApiGetSlotSettings
   () => Promise<unknown>;
 
 type GetAdManagersReturnEmbeddedAdEmbeddedAdManagerEmbeddedAdsApiSubscribeToSlot = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedAdEmbeddedAdManagerEmbeddedAdsApiTriggerSlot = () => unknown;
 
 type GetAdManagersReturnEmbeddedAdEmbeddedAdManagerEnable = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnEmbeddedAdEmbeddedAdManagerFetchAd = () => unknown;
@@ -685,7 +685,7 @@ interface GetAdManagersReturnEmbeddedAdEmbeddedNPVAdEventLogger {
 type GetAdManagersReturnEmbeddedAdEmbeddedNPVAdEventLoggerLog = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetAdManagersReturnEmbeddedPlaylist {
@@ -701,7 +701,7 @@ interface GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistAdEventLogger {
 
 type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistAdEventLoggerLog = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManager {
@@ -722,14 +722,14 @@ type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManagerEmbeddedPlaylistA
   () => unknown;
 
 type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManagerEmbeddedPlaylistApiFetchAd = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManagerEmbeddedPlaylistApiGetSlotSettings =
   () => Promise<unknown>;
 
 type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManagerFetchAd = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnEmbeddedPlaylistEmbeddedPlaylistManagerGetSlotSettings =
@@ -743,13 +743,13 @@ interface GetAdManagersReturnEmbeddedPlaylistScrollCardAdEventLogger {
 }
 
 type GetAdManagersReturnEmbeddedPlaylistScrollCardAdEventLoggerFireTrackingEvent = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnEmbeddedPlaylistScrollCardAdEventLoggerLog = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetAdManagersReturnHome {
@@ -859,24 +859,24 @@ interface GetAdManagersReturnHptoHptoApiEsperantoPreviewParser {
 }
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserCreateInteractiveIframe = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserGetKeyByValue = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserHandleNativeEl = (arg0: any) => unknown;
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserIsPreviewServiceAd = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserParsePreview = (arg0: any) => unknown;
 
 type GetAdManagersReturnHptoHptoApiEsperantoPreviewParserRenameImageBannerField = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnHptoHptoApiGetAlgoPlaylistInfo = (arg0: any) => Promise<unknown>;
@@ -972,7 +972,7 @@ type GetAdManagersReturnHptoVisibilityObserverIntersectionObserverTakeRecords = 
 type GetAdManagersReturnHptoVisibilityObserverIntersectionObserverThresholds = Array<number>;
 
 type GetAdManagersReturnHptoVisibilityObserverIntersectionObserverUnobserve = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnHptoVisibilityObserverObserve = (arg0: any, arg1: any) => unknown;
@@ -1104,11 +1104,11 @@ interface GetAdManagersReturnLeaderboardLeaderboardApi {
 }
 
 type GetAdManagersReturnLeaderboardLeaderboardApiCoerceDisplayTimeIntervalMs = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnLeaderboardLeaderboardApiCreateAndEnableSlot = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnLeaderboardLeaderboardApiGetConfig = () => Promise<unknown>;
@@ -1117,14 +1117,14 @@ type GetAdManagersReturnLeaderboardLeaderboardApiGetSlot = (arg0: any) => Promis
 
 type GetAdManagersReturnLeaderboardLeaderboardApiLogEvent = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnLeaderboardLeaderboardApiNormalizeConfig = (arg0: any) => unknown;
 
 type GetAdManagersReturnLeaderboardLeaderboardApiSubscribeToSlotType = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnLeaderboardLogLeaderboardEvent = (arg0: any) => unknown;
@@ -1233,7 +1233,7 @@ type GetAdManagersReturnSponsoredPlaylistEnable = (arg0: any) => Promise<unknown
 type GetAdManagersReturnSponsoredPlaylistLogEvent = (arg0: any) => Promise<unknown>;
 
 type GetAdManagersReturnSponsoredPlaylistRequestSponsoredPlaylistAd = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnSponsoredPlaylistRequestSponsoredPlaylists = () => Promise<unknown>;
@@ -1251,15 +1251,15 @@ type GetAdManagersReturnSponsoredPlaylistSponsoredPlaylistApiGetSponsoredUris =
   () => Promise<unknown>;
 
 type GetAdManagersReturnSponsoredPlaylistSponsoredPlaylistApiGetSponsorshipAd = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnSponsoredPlaylistSponsoredPlaylistApiLogEvent = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnSponsoredPlaylistSponsoredPlaylistApiSubscribeToPreview = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnSurvey {
@@ -1421,7 +1421,7 @@ type GetAdManagersReturnVtoManagerPlayerAPICollectionAdd = (arg0: any, arg1: any
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionAddUnplayed = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionBan = (arg0: any, arg1: any) => unknown;
@@ -1430,7 +1430,7 @@ type GetAdManagersReturnVtoManagerPlayerAPICollectionBanGlobal = (arg0: any, arg
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionBanInPlayContext = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionContains = (arg0: any, arg1: any) => unknown;
@@ -1439,34 +1439,34 @@ type GetAdManagersReturnVtoManagerPlayerAPICollectionDecorate = (arg0: any, arg1
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionGetArtistTrackList = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionGetArtistView = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionGetBucketSyncStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionGetTrackList = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionGetUnplayedEpisodes = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionIsSnoozed = (arg0: any, arg1: any) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionOfflineArtist = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionOptions = Record<string, unknown>;
@@ -1479,66 +1479,66 @@ type GetAdManagersReturnVtoManagerPlayerAPICollectionRemove = (arg0: any, arg1: 
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionRemoveOfflineArtist = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionRemoveUnplayed = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionSnooze = (arg0: any, arg1: any) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamArtistTrackList = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamArtistView = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamContains = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamDecorate = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamTagsInfo = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamTrackList = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamTrackListMetadata = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionStreamUnplayedEpisodes = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionUnban = (arg0: any, arg1: any) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionUnbanGlobal = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionUnbanInPlayContext = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPICollectionUnsnooze = (arg0: any, arg1: any) => unknown;
@@ -1679,7 +1679,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIContextualShuffleEventsEmitUpdateCont
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShuffleEventsEmitUpdateSetting = () => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShuffleGetContextualShuffleMode = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShuffleGetEvents = () => unknown;
@@ -1898,13 +1898,13 @@ type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePlaybackSettingsClie
 >;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPICancelSubscription = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPICreateSubscription = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPIEvents {
@@ -1971,26 +1971,26 @@ type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPIGetSubscrip
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPIMessages = Array<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPIOnConnectionId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPIRefreshSubscription = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscribe = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscribeToConnectionId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscribeToMessages = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscriptions = Map<
@@ -2030,7 +2030,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscr
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscriptionsValueOnCancel = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscriptionsValueOnMessage =
@@ -2062,7 +2062,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIContextualShufflePubSubAPISubscriptio
 
 type GetAdManagersReturnVtoManagerPlayerAPIContextualShuffleSetContextualShuffleMode = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnVtoManagerPlayerAPIEvents {
@@ -2091,7 +2091,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitPauseSync = () => unknown;
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitPlaySync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitQueueActionComplete = (arg0: any) => unknown;
@@ -2155,23 +2155,23 @@ interface GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItem
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersActionItemOptions = Record<
@@ -2193,7 +2193,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersErrorItemListen
   () => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersErrorItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersErrorItemOptions = Record<
@@ -2210,7 +2210,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueActio
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueActionCompleteItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueActionCompleteItemOptions =
@@ -2225,7 +2225,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueUpdat
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueUpdateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersQueueUpdateItemOptions = Record<
@@ -2242,7 +2242,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersReadyItem 
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersReadyItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersReadyItemOptions = Record<
@@ -2264,23 +2264,23 @@ interface GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItem
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIEventsEmitterListenersUpdateItemOptions = Record<
@@ -2317,7 +2317,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIGetState = () => unknown;
 type GetAdManagersReturnVtoManagerPlayerAPIInsertIntoQueue = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIPause = (arg0: any) => Promise<unknown>;
@@ -2339,13 +2339,13 @@ type GetAdManagersReturnVtoManagerPlayerAPIPlaylistPlayServiceClientOptions = Re
 
 type GetAdManagersReturnVtoManagerPlayerAPIPlaylistPlayServiceClientPlay = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPIPlaylistResyncerAPILastSync = Map<string, number>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIPlaylistResyncerAPIMaybeResync = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnVtoManagerPlayerAPIPlaylistResyncerAPIPlaylistServiceClient {
@@ -2373,7 +2373,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIPlaylistResyncerAPIPlaylistServiceCli
 >;
 
 type GetAdManagersReturnVtoManagerPlayerAPIPlaylistResyncerAPIResync = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnVtoManagerPlayerAPIPlaylistServiceClient {
@@ -2419,7 +2419,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIQueue {
 
 type GetAdManagersReturnVtoManagerPlayerAPIQueueAddToQueue = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIQueueClearQueue = () => Promise<unknown>;
@@ -2435,7 +2435,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIQueueGetQueue = () => unknown;
 type GetAdManagersReturnVtoManagerPlayerAPIQueueInsertIntoQueue = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIQueueIsQueued = (arg0: any) => unknown;
@@ -3035,7 +3035,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIQueueRemoveFromQueue = (arg0: any) =>
 
 type GetAdManagersReturnVtoManagerPlayerAPIQueueReorderQueue = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIRefreshCurrentContext = () => Promise<unknown>;
@@ -3044,7 +3044,7 @@ type GetAdManagersReturnVtoManagerPlayerAPIRemoveFromQueue = (arg0: any) => Prom
 
 type GetAdManagersReturnVtoManagerPlayerAPIReorderQueue = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPIResume = (arg0: any) => Promise<unknown>;
@@ -3093,11 +3093,11 @@ interface GetAdManagersReturnVtoManagerPlayerAPISleepTimerCore {
 type GetAdManagersReturnVtoManagerPlayerAPISleepTimerCoreClearSleepTimerTimeout = () => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPISleepTimerCoreHandleEndOfTrackSleepTimer = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPISleepTimerCoreHandleTimestampSleepTimer = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAdManagersReturnVtoManagerPlayerAPISleepTimerCoreOnStateUpdate = (arg0: any) => unknown;
@@ -3109,7 +3109,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPISleepTimerCoreSLEEPTIMERORIGIN {
 }
 
 type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityGetEligibility = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtensionsAPIBatchFetcher {
@@ -3196,7 +3196,7 @@ type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtens
 
 type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtensionsAPIExpire = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtensionsAPIFetch =
@@ -3241,7 +3241,7 @@ type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtens
   Record<string, unknown>;
 
 type GetAdManagersReturnVtoManagerPlayerAPISmartShuffleEligibilityMetadataExtensionsAPISubscribe = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetAdManagersReturnVtoManagerPlayerAPIStateContext {
@@ -3758,7 +3758,7 @@ interface GetAdManagersReturnVtoManagerPlayerAPIStateSleepTimer {
 type GetAdManagersReturnVtoManagerPlayerAPIUpdateContext = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerResetState = () => unknown;
@@ -3773,7 +3773,7 @@ interface GetAdManagersReturnVtoManagerVideoTakeoverApi {
 
 type GetAdManagersReturnVtoManagerVideoTakeoverApiPatchTargeting = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetAdManagersReturnVtoManagerVideoTakeoverApiPostEvent = (arg0: any) => Promise<unknown>;
@@ -3937,7 +3937,7 @@ interface GetAudioOutputDevicesAPIReturnAudioObserver {
 
 type GetAudioOutputDevicesAPIReturnAudioObserverGetAudioOutputDevices = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetAudioOutputDevicesAPIReturnAudioObserverOptions = Record<string, unknown>;
@@ -4005,14 +4005,14 @@ interface GetAudioOutputDevicesAPIReturnEventsEmitterListenersDeviceConnectedIte
 }
 
 type GetAudioOutputDevicesAPIReturnEventsEmitterListenersDeviceConnectedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAudioOutputDevicesAPIReturnEventsEmitterListenersDeviceConnectedItemListener2 =
   () => Promise<unknown>;
 
 type GetAudioOutputDevicesAPIReturnEventsEmitterListenersDeviceConnectedItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetAudioOutputDevicesAPIReturnEventsEmitterListenersDeviceConnectedItemOptions = Record<
@@ -4204,7 +4204,7 @@ type GetBuddyFeedAPIReturnFetchFriendActivityByUsername = (arg0: any) => Promise
 type GetBuddyFeedAPIReturnFetchFriendActivityWithSubscriptions = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetBuddyFeedAPIReturnGetCapabilities = () => unknown;
@@ -4220,7 +4220,7 @@ type GetBuddyFeedAPIReturnPresence2SubscribeToBuddyActivity = (arg0: any, arg1: 
 
 type GetBuddyFeedAPIReturnPresence2UnsubscribeFromBuddiesActivity = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 interface GetBuddyFeedAPIReturnPresenceView {
@@ -4246,7 +4246,7 @@ type GetBuddyFeedAPIReturnPresenceViewBuilderPendingRequests = Set<unknown>;
 type GetBuddyFeedAPIReturnPresenceViewBuilderRequestImplementation = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetBuddyFeedAPIReturnPresenceViewBuilderResetPendingRequests = () => unknown;
@@ -4498,22 +4498,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetArtistbanDele
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetArtistbanOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetArtistbanOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetArtistbanOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetArtistbanOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcerts {
@@ -4550,22 +4550,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcertsDelet
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcertsOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcertsOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcertsOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetConcertsOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecs {
@@ -4602,22 +4602,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecsD
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecsOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecsOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecsOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetIgnoreinrecsOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinished {
@@ -4654,22 +4654,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinis
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinishedOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinishedOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinishedOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetMarkedasfinishedOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterested {
@@ -4706,22 +4706,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterested
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterestedOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterestedOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterestedOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetNotinterestedOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematch {
@@ -4758,22 +4758,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematchDele
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematchOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematchOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematchOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPagematchOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrerelease {
@@ -4810,22 +4810,22 @@ type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrereleaseDel
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrereleaseOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrereleaseOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrereleaseOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsAggregatorByCollection2SetPrereleaseOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsContainsCancelFunctionByCollection2Set {
@@ -4880,7 +4880,7 @@ interface GetCollectionPlatformAPIReturnEventsEmitterListenersAddedItem {
 type GetCollectionPlatformAPIReturnEventsEmitterListenersAddedItemListener = (arg0: any) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsEmitterListenersAddedItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsEmitterListenersAddedItemOptions = Record<string, unknown>;
@@ -4896,7 +4896,7 @@ interface GetCollectionPlatformAPIReturnEventsEmitterListenersRemovedItem {
 }
 
 type GetCollectionPlatformAPIReturnEventsEmitterListenersRemovedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsEmitterListenersRemovedItemOptions = Record<
@@ -4913,7 +4913,7 @@ interface GetCollectionPlatformAPIReturnEventsEmitterListenersUpdateItemItem {
 }
 
 type GetCollectionPlatformAPIReturnEventsEmitterListenersUpdateItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetCollectionPlatformAPIReturnEventsEmitterListenersUpdateItemItemOptions {
@@ -4939,7 +4939,7 @@ interface GetCollectionPlatformAPIReturnEventsEmitterMetaListenersAddUpdateItemI
 }
 
 type GetCollectionPlatformAPIReturnEventsEmitterMetaListenersAddUpdateItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsEmitterMetaListenersAddUpdateItemItemOptions = Record<
@@ -4960,7 +4960,7 @@ interface GetCollectionPlatformAPIReturnEventsEmitterMetaListenersRemoveUpdateIt
 }
 
 type GetCollectionPlatformAPIReturnEventsEmitterMetaListenersRemoveUpdateItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsEmitterMetaListenersRemoveUpdateItemItemOptions = Record<
@@ -4971,18 +4971,18 @@ type GetCollectionPlatformAPIReturnEventsEmitterMetaListenersRemoveUpdateItemIte
 type GetCollectionPlatformAPIReturnEventsEmitUpdateItems = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnEventsOnBatchChanged = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetCollectionPlatformAPIReturnEventsSubscribeContains = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetCollectionPlatformAPIReturnGet = (arg0: any) => Promise<unknown>;
@@ -5076,7 +5076,7 @@ type GetConnectAPIReturnConnectServiceClientCancelTransfer = (arg0: any, arg1: a
 
 type GetConnectAPIReturnConnectServiceClientClusterUpdateAfterBackendConnection = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetConnectAPIReturnConnectServiceClientCreateStaticGroup = (arg0: any, arg1: any) => unknown;
@@ -5091,7 +5091,7 @@ type GetConnectAPIReturnConnectServiceClientLogout = (arg0: any, arg1: any) => u
 
 type GetConnectAPIReturnConnectServiceClientNotifyAudioRouteChanged = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetConnectAPIReturnConnectServiceClientOptions = Record<string, unknown>;
@@ -5104,7 +5104,7 @@ type GetConnectAPIReturnConnectServiceClientRefreshCluster = (arg0: any, arg1: a
 
 type GetConnectAPIReturnConnectServiceClientRemoveDeviceFromGroup = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetConnectAPIReturnConnectServiceClientRename = (arg0: any, arg1: any) => unknown;
@@ -5123,7 +5123,7 @@ type GetConnectAPIReturnConnectServiceClientTransfer = (arg0: any, arg1: any) =>
 
 type GetConnectAPIReturnConnectServiceClientWakeSleepingClusterDevices = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetConnectAPIReturnCreateLoggingParams = (arg0: any) => unknown;
@@ -5349,7 +5349,7 @@ interface GetConnectDevicesAPIReturnConnectRestrictor {
 }
 
 type GetConnectDevicesAPIReturnConnectRestrictorUpdateRestrictedListOfDevices = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetConnectDevicesAPIReturnEvents {
@@ -5711,7 +5711,7 @@ interface GetControlMessageAPIReturnPartnerApiClient {
 
 type GetControlMessageAPIReturnPartnerApiClientEnablePartnerApiEndpoint = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetControlMessageAPIReturnPartnerApiClientNotifyUIReady = (arg0: any, arg1: any) => unknown;
@@ -5720,7 +5720,7 @@ type GetControlMessageAPIReturnPartnerApiClientOptions = Record<string, unknown>
 
 type GetControlMessageAPIReturnPartnerApiClientSetPartnerApiTcpPorts = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetControlMessageAPIReturnSetPLEPorts = (arg0: any, arg1: any, arg2: any) => Promise<unknown>;
@@ -5992,7 +5992,7 @@ type GetDataPoolReturnTablesValueCurationAPICurateDefault = (arg0: any) => Promi
 type GetDataPoolReturnTablesValueCurationAPICurateItems = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueCurationAPIEvents {
@@ -6039,22 +6039,22 @@ type GetDataPoolReturnTablesValueCurationAPIEventsAggregatorDeletions = Map<unkn
 
 type GetDataPoolReturnTablesValueCurationAPIEventsAggregatorOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsAggregatorOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsAggregatorOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsAggregatorOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsCacheCache = Map<
@@ -6071,14 +6071,14 @@ type GetDataPoolReturnTablesValueCurationAPIEventsEmitOperationComplete = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitOperationSync = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueCurationAPIEventsEmitter {
@@ -6124,19 +6124,19 @@ interface GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCur
 }
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCuratedItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCuratedItemItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCuratedItemItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCuratedItemItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueCurationAPIEventsEmitterListenersUpdateCuratedItemItemOptions {
@@ -6186,11 +6186,11 @@ type GetDataPoolReturnTablesValueCurationAPIEventsEmitterMetaListenersRemoveUpda
 
 type GetDataPoolReturnTablesValueCurationAPIEventsEmitUpdateCuratedItems = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIEventsOnCuratedBatchChanged = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueCurationAPIEventsStreamIsCuratedCancellable {
@@ -6324,22 +6324,22 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsAggregatorDeletions 
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsAggregatorOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsAggregatorOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsAggregatorOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsAggregatorOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregator {
@@ -6376,22 +6376,22 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregator
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregatorOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregatorOnBatch = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregatorOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewAggregatorOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsArtistViewSubscriptions = Map<
@@ -6473,13 +6473,13 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsContainsCancellableC
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitOperationComplete = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitOperationSync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitter {
@@ -6595,7 +6595,7 @@ interface GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitterListener
 }
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitterListenersUpdateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitterListenersUpdateItemOptions =
@@ -6732,25 +6732,25 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitterMetaListeners
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitUpdateItems = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitUpdatePin = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsEmitUpdatePinErrorTooManyPins = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsOnArtistViewBatchChanged = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsOnBatchChanged = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsSubscribeToUpdates = () => unknown;
@@ -6758,7 +6758,7 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsSubscribeToUpdates =
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIEventsUnsubscribeFromUpdates = () => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetArtistView = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetCapabilities = () => unknown;
@@ -6766,7 +6766,7 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetCapabilities = () => un
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetContents = (arg0: any) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetContentsPrimaryFilterId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetCustomSortOrderId = () => unknown;
@@ -6790,16 +6790,16 @@ type GetDataPoolReturnTablesValueCurationAPILibraryAPIGetTracksFilterTags = () =
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIIsTagsInfoSynced = () => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIMarkAsPlayed = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIMarkAsUnPlayed = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPILibraryAPIPin = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueCurationAPILibraryAPIPlaylistDataClient {
@@ -6867,12 +6867,12 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIAdd = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIClearAttributes = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEmitUpdate = () => unknown;
@@ -6936,63 +6936,63 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsAggregatorDeletions
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsAggregatorOnAdd = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsAggregatorOnBatch = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsAggregatorOnRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsAggregatorOnUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitAddComplete = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitAddSync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitMoveComplete = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitMoveSync = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitRemoveComplete = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitRemoveSync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitSendSignalComplete = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitSendSignalSync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitter {
@@ -7098,16 +7098,16 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitterMetaListener
   Record<string, unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitUpdateComplete = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsEmitUpdateSync = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsOnBatchChanged = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIEventsSubscriptions = Map<unknown, unknown>;
@@ -7116,7 +7116,7 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetCapabilities = () => u
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetContents = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetEvents = () => unknown;
@@ -7124,54 +7124,54 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetEvents = () => unknown
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetItem = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetMetadata = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetPlaylist = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetPlaylistDecorationPolicies = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetRecommendedAudiobookUris = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetRecommendedBookUris = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetRecommendedEpisodeUris = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIGetRecommendedTracks = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIMove = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueCurationAPIPlaylistAPIPlaylistDataClient {
@@ -7214,22 +7214,22 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIPlaylistServiceClientOpti
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIRequestLenses = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIResolvePlaylistFormatURI = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIResync = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPISendSignal = (
@@ -7237,21 +7237,21 @@ type GetDataPoolReturnTablesValueCurationAPIPlaylistAPISendSignal = (
   arg1: any,
   arg2: any,
   arg3: any,
-  arg4: any,
+  arg4: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPISetAttributes = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIUpdateDetails = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueCurationAPIPlaylistAPIUploadImage = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueCurationAPIYourLibrary {
@@ -7366,7 +7366,7 @@ type GetDataPoolReturnTablesValueEventsSubscribers = Array<unknown>;
 type GetDataPoolReturnTablesValueFeedbackAPIAddContextTrackBan = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueFeedbackAPIClient {
@@ -7563,18 +7563,18 @@ type GetDataPoolReturnTablesValueFeedbackAPIEventsEmitterMetaListenersRemoveUpda
 type GetDataPoolReturnTablesValueFeedbackAPIEventsEmitUpdateContextualBan = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueFeedbackAPIEventsOnBatchChanged = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueFeedbackAPIEventsSubscribeContextualBans = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueFeedbackAPIGetCapabilities = () => unknown;
@@ -7583,13 +7583,13 @@ type GetDataPoolReturnTablesValueFeedbackAPIGetEvents = () => unknown;
 
 type GetDataPoolReturnTablesValueFeedbackAPIRemoveContextTrackBan = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueFeedbackAPISubscribeContextualBans = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueGetAllKeys = () => unknown;
@@ -7642,7 +7642,7 @@ type GetDataPoolReturnTablesValueLocalFilesHandlerDoRefresh = () => Promise<unkn
 type GetDataPoolReturnTablesValueLocalFilesHandlerEnsureTracksLoaded = () => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIAddFolder = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIBrowseForFolder =
@@ -7666,37 +7666,37 @@ interface GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClient {
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientAddFolder = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientGetScannerStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientGetSources = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientGetTracks = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientMutateDefaultSource = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientMutateDefaultSources = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientNotifyDefaultSources = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientOptions = Record<
@@ -7706,22 +7706,22 @@ type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientOptions = R
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientRemoveFolder = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientSubscribeScannerStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientSubscribeSources = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIClientSubscribeTracks = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIEmitUpdate = () => unknown;
@@ -7832,28 +7832,28 @@ type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIGetSources = () =
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIGetTracks = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIMutateDefaultSource = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPIRemoveFolder = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPISaveLocalListConfig = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPISetIsEnabled = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPISubscribeIsEnabled = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPISubscribeToTracksUpdates =
@@ -7861,7 +7861,7 @@ type GetDataPoolReturnTablesValueLocalFilesHandlerLocalFilesAPISubscribeToTracks
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerNotifySubscribers = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueLocalFilesHandlerPeek = (arg0: any) => unknown;
@@ -7943,12 +7943,12 @@ interface GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicy {
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicyGetRules = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicyGetState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicyOptions = Record<
@@ -7958,22 +7958,22 @@ type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicyOptions = Rec
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicySetConnectionType = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicySetForceOffline = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicySetRules = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsConnectivityPolicySubState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitter {
@@ -8019,7 +8019,7 @@ interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersErrorItem 
 }
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersErrorItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersErrorItemOptions = Record<
@@ -8041,23 +8041,23 @@ interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvai
 }
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateAvailabilityItemOptions {
@@ -8078,23 +8078,23 @@ interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapa
 }
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateCapabilitiesItemOptions =
@@ -8141,7 +8141,7 @@ interface GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateTota
 }
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateTotalProgressItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIEventsEmitterListenersUpdateTotalProgressItemOptions =
@@ -8404,58 +8404,58 @@ type GetDataPoolReturnTablesValueOfflineAPIOfflineAddDownload = (arg0: any, arg1
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineBulkRedownloadCancel = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineBulkRedownloadPreflight = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineBulkRedownloadStart = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetContexts = (arg0: any, arg1: any) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetContextsProgress = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetDevices = (arg0: any, arg1: any) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetEstimatedStorageIncrease = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetItems = (arg0: any, arg1: any) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetListsContainingItem = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetLocalDevice = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetOfflineLicenseInfo = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetOfflinePlaybackStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineGetTotalProgress = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineHasResource = (arg0: any, arg1: any) => unknown;
@@ -8466,72 +8466,72 @@ type GetDataPoolReturnTablesValueOfflineAPIOfflineOptions = Record<string, unkno
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflinePrepareResource = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineRemoveAllDownloads = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineRemoveDownload = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineRemoveResource = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSetOfflinePlaybackAllowed = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeBulkRedownloadProgress = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeContextAdded = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeContexts = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeContextsProgress = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeDevicesWithContext = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeError = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeItems = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeOfflinePlaybackStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueOfflineAPIOfflineSubscribeTotalProgress = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetDataPoolReturnTablesValueOfflineAPIProductState {
@@ -8553,7 +8553,7 @@ type GetDataPoolReturnTablesValueOfflineAPIRemoveCache = () => Promise<unknown>;
 
 type GetDataPoolReturnTablesValueOfflineAPIRemoveDownload = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 interface GetDataPoolReturnTablesValueOfflineAPIStorage {
@@ -8669,7 +8669,7 @@ type GetDataPoolReturnTablesValuePlayabilityAPISetCachedPlayability = (arg0: any
 
 type GetDataPoolReturnTablesValuePlayabilityAPISubscribeToPlayability = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSetValue = (arg0: any, arg1: any) => unknown;
@@ -8785,77 +8785,77 @@ interface GetDataPoolReturnTablesValueSubscriptionBatcher7 {
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn10 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn11 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn12 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn13 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn14 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn15 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn2 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn3 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn4 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn5 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn6 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn7 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn8 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherBatchSubscribeFn9 = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherFlushPendingBatch = () => unknown;
@@ -8865,13 +8865,13 @@ type GetDataPoolReturnTablesValueSubscriptionBatcherScheduleBatch = () => unknow
 type GetDataPoolReturnTablesValueSubscriptionBatcherSubscribe = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDataPoolReturnTablesValueSubscriptionBatcherUnsubscribeFromBatch = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetDeepLinkAPI = () => GetDeepLinkAPIReturn;
@@ -9045,23 +9045,23 @@ interface GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItem {
 }
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIEventsEmitterListenersUpdateItemOptions = Record<
@@ -9159,7 +9159,7 @@ type GetEqualizerAPIReturnLocalStorageAPISetItem = (arg0: any, arg1: any) => unk
 type GetEqualizerAPIReturnLocalStorageAPISetItemInternal = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetEqualizerAPIReturnLocalStorageAPIToggleItemsTypeAndCleanup = () => unknown;
@@ -9300,12 +9300,12 @@ interface GetEventSenderReturnDroppedEventsTracker {
 type GetEventSenderReturnDroppedEventsTrackerGetDroppedEventCounters = (arg0: any) => unknown;
 
 type GetEventSenderReturnDroppedEventsTrackerGetDroppedEventsCountersPerSequenceId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnDroppedEventsTrackerUpdateDroppedEventCount = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnDroppedEventsTrackerUpdateReportedEventCounters = (arg0: any) => unknown;
@@ -9415,7 +9415,7 @@ type GetEventSenderReturnSendESS2NAWithOptimization = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetEventSenderReturnSendESStats = () => unknown;
@@ -9447,12 +9447,12 @@ interface GetEventSenderReturnSequenceNumberProvider {
 
 type GetEventSenderReturnSequenceNumberProviderCommitSequenceNumber = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnSequenceNumberProviderGenerateNextEventSequenceNumber = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnSequenceNumberProviderGenerateNextGlobalSequenceNumber = () => unknown;
@@ -9464,7 +9464,7 @@ type GetEventSenderReturnSequenceNumberProviderGetEventsSequenceNumbers = (arg0:
 type GetEventSenderReturnSequenceNumberProviderGetNextSequenceNumber = (arg0: any) => unknown;
 
 type GetEventSenderReturnSequenceNumberProviderGetSequenceNumbersPerSequenceId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnSetupInstallationId = () => unknown;
@@ -9481,12 +9481,12 @@ interface GetEventSenderReturnStatsProvider {
 type GetEventSenderReturnStatsProviderAddDroppedEventsCounters = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetEventSenderReturnStatsProviderAddDroppedEventsCountersData = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnStatsProviderAddEventsToESSData = (arg0: any, arg1: any) => unknown;
@@ -9498,7 +9498,7 @@ type GetEventSenderReturnStatsProviderGetInitialESSData = (arg0: any) => unknown
 type GetEventSenderReturnStatsProviderProvideEventSenderStats = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetEventSenderReturnStorageManager {
@@ -9534,7 +9534,7 @@ interface GetEventSenderReturnStorageManager {
 
 type GetEventSenderReturnStorageManagerAddItemInDroppedCountersStorage = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnStorageManagerAddItemInEventsStorage = (arg0: any, arg1: any) => unknown;
@@ -9601,12 +9601,12 @@ type GetEventSenderReturnStorageManagerStorageAdapterSetItem = (arg0: any, arg1:
 
 type GetEventSenderReturnStorageManagerUpdateItemInDroppedCountersStorage = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnStorageManagerUpdateItemInEventsStorage = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetEventSenderReturnStoreEvent = (arg0: any, arg1: any) => unknown;
@@ -9669,7 +9669,7 @@ interface GetEventSenderReturnUploadersAuthorizedListenersUploadFailedItem {
 }
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadFailedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadFailedItemOptions = Record<
@@ -9686,7 +9686,7 @@ interface GetEventSenderReturnUploadersAuthorizedListenersUploadRequestFailedIte
 }
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadRequestFailedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadRequestFailedItemOptions = Record<
@@ -9703,7 +9703,7 @@ interface GetEventSenderReturnUploadersAuthorizedListenersUploadSucceededItem {
 }
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadSucceededItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersAuthorizedListenersUploadSucceededItemOptions = Record<
@@ -9723,7 +9723,7 @@ type GetEventSenderReturnUploadersAuthorizedMetaListenersRemove = Record<string,
 type GetEventSenderReturnUploadersAuthorizedParseUploadResponse = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersAuthorizedShouldBackoff = () => unknown;
@@ -9783,7 +9783,7 @@ interface GetEventSenderReturnUploadersUnauthorizedListenersUploadFailedItem {
 }
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadFailedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadFailedItemOptions = Record<
@@ -9800,7 +9800,7 @@ interface GetEventSenderReturnUploadersUnauthorizedListenersUploadRequestFailedI
 }
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadRequestFailedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadRequestFailedItemOptions = Record<
@@ -9817,7 +9817,7 @@ interface GetEventSenderReturnUploadersUnauthorizedListenersUploadSucceededItem 
 }
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadSucceededItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetEventSenderReturnUploadersUnauthorizedListenersUploadSucceededItemOptions = Record<
@@ -9930,7 +9930,7 @@ interface GetExclusiveModeAPIReturnEventsEmitterListenersExclusiveModeChangedIte
 }
 
 type GetExclusiveModeAPIReturnEventsEmitterListenersExclusiveModeChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetExclusiveModeAPIReturnEventsEmitterListenersExclusiveModeChangedItemOptions = Record<
@@ -9947,7 +9947,7 @@ interface GetExclusiveModeAPIReturnEventsEmitterListenersSelectedDeviceChangedIt
 }
 
 type GetExclusiveModeAPIReturnEventsEmitterListenersSelectedDeviceChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetExclusiveModeAPIReturnEventsEmitterListenersSelectedDeviceChangedItemOptions = Record<
@@ -9978,7 +9978,7 @@ interface GetExclusiveModeAPIReturnExclusiveModeService {
 
 type GetExclusiveModeAPIReturnExclusiveModeServiceEnumerateDevices = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetExclusiveModeAPIReturnExclusiveModeServiceGetDevice = (arg0: any, arg1: any) => unknown;
@@ -10019,12 +10019,12 @@ type GetExclusiveModeAPIReturnSetExclusiveModeEnabled = (arg0: any) => Promise<u
 
 type GetExclusiveModeAPIReturnSetPersistedExclusiveModeForDevice = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetExclusiveModeAPIReturnSetSelectedAudioOutputDevice = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetExclusiveModeAPIReturnUpdateDeviceList = () => Promise<unknown>;
@@ -10136,7 +10136,7 @@ type GetFocusMainWindowAPIReturnWindowStateClientSetWindowState = (arg0: any, ar
 
 type GetFocusMainWindowAPIReturnWindowStateClientSubscribeWindowState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetFollowAPI = () => GetFollowAPIReturn;
@@ -10326,7 +10326,7 @@ interface GetForceVolumeAPIReturnEventsEmitterListenersForceVolumeChangedItem {
 }
 
 type GetForceVolumeAPIReturnEventsEmitterListenersForceVolumeChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetForceVolumeAPIReturnEventsEmitterListenersForceVolumeChangedItemOptions = Record<
@@ -10365,7 +10365,7 @@ type GetGraphQLBatchedLoaderReturn = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetGraphQLLoader = () => GetGraphQLLoaderReturn;
@@ -10616,31 +10616,31 @@ interface GetListPlatformAPIReturnListPlatformFetchAPI {
 type GetListPlatformAPIReturnListPlatformFetchAPIGetList = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetListPlatformAPIReturnListPlatformFetchAPIGetListContents = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetListPlatformAPIReturnListPlatformFetchAPIGetPlaylistGetRequest = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetListPlatformAPIReturnListPlatformFetchAPIOnListUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetListPlatformAPIReturnListPlatformFetchAPISubscribeList = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetListPlatformAPIReturnListPlatformFetchAPIUpdatePlayabilityCache = (arg0: any) => unknown;
@@ -10657,18 +10657,18 @@ interface GetListPlatformAPIReturnListPlatformMutationAPI {
 type GetListPlatformAPIReturnListPlatformMutationAPIAdd = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetListPlatformAPIReturnListPlatformMutationAPIMove = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetListPlatformAPIReturnListPlatformMutationAPIRemove = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetListPlatformAPIReturnListPlatformMutationAPIRemoveAll = (arg0: any) => Promise<unknown>;
@@ -10922,7 +10922,7 @@ type GetMagpieAPIReturnWritePrompt = (
   arg1: any,
   arg2: any,
   arg3: any,
-  arg4: any,
+  arg4: any
 ) => Promise<unknown>;
 
 type GetMetadataExtensions = () => GetMetadataExtensionsReturn;
@@ -11450,37 +11450,37 @@ interface GetPlaylistMixingAPIReturnAutomixClient {
 
 type GetPlaylistMixingAPIReturnAutomixClientGetComputedTransitions = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetEqStylesForEqStyleId = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetFilterFxStylesForFilterFxStyleId = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetFxStylesForFxStyleId = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetMaxTransitionLength = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetStylesForPresetId = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientGetVolumeStylesForVolumeStyleId = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnAutomixClientOptions = Record<string, unknown>;
@@ -11491,40 +11491,40 @@ type GetPlaylistMixingAPIReturnEmitOptOutSignal = (arg0: any, arg1: any) => Prom
 
 type GetPlaylistMixingAPIReturnGetAutoTransitionForTrackPair = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetBackendAutoTransitionForTrackPair = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetComposedTransitionForTrackPair = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetCustomTransitionForTrackPair = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetEqStylesForEqStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetFilterFxStylesForFilterFxStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetFxStylesForFxStyleIds = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnGetMaxTransitionLength = () => Promise<unknown>;
@@ -11537,7 +11537,7 @@ type GetPlaylistMixingAPIReturnGetTransitionPreviewState = () => unknown;
 
 type GetPlaylistMixingAPIReturnGetVolumeStylesForVolumeStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnIsTransitionPreviewActive = () => unknown;
@@ -11568,14 +11568,14 @@ type GetPlaylistMixingAPIReturnPlaylistServiceClientOptions = Record<string, unk
 type GetPlaylistMixingAPIReturnPlayTransition = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnPlayTransitionPreview = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnSetMixState = (arg0: any, arg1: any) => Promise<unknown>;
@@ -11583,7 +11583,7 @@ type GetPlaylistMixingAPIReturnSetMixState = (arg0: any, arg1: any) => Promise<u
 type GetPlaylistMixingAPIReturnSetTransitionForTrack = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 interface GetPlaylistMixingAPIReturnStateAPI {
@@ -11600,7 +11600,7 @@ interface GetPlaylistMixingAPIReturnStateAPI {
 
 type GetPlaylistMixingAPIReturnStateAPIEmitOptOutSignal = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStateAPIInvalidateMixStateCaches = (arg0: any) => unknown;
@@ -11613,13 +11613,13 @@ interface GetPlaylistMixingAPIReturnStateAPIMetadataService {
 }
 
 type GetPlaylistMixingAPIReturnStateAPIMetadataServiceGetShouldApplyAutoLens = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStateAPISendOwnerSignal = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStateAPISetMixState = (arg0: any, arg1: any) => Promise<unknown>;
@@ -12525,18 +12525,18 @@ interface GetPlaylistMixingAPIReturnStyleAPIFilterFxStylesCacheCacheValueValueSt
 
 type GetPlaylistMixingAPIReturnStyleAPIGetEqStylesForEqStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStyleAPIGetFilterFxStylesForFilterFxStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStyleAPIGetFxStylesForFxStyleIds = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStyleAPIGetStylesForPresetIds = (arg0: any) => Promise<unknown>;
@@ -12545,7 +12545,7 @@ type GetPlaylistMixingAPIReturnStyleAPIGetValidEnumValues = (arg0: any) => unkno
 
 type GetPlaylistMixingAPIReturnStyleAPIGetVolumeStylesForVolumeStyleIds = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnStyleAPIPrefetchAllStyles = () => Promise<unknown>;
@@ -13041,24 +13041,24 @@ type GetPlaylistMixingAPIReturnTransitionAPICleanupTransitionPreview = () => Pro
 
 type GetPlaylistMixingAPIReturnTransitionAPIGetAutoTransitionForTrackPair = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIGetBackendAutoTransitionForTrackPair = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIGetComposedTransitionForTrackPair = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIGetCustomTransitionForTrackPair = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIGetMaxTransitionLength = () => Promise<unknown>;
@@ -13072,14 +13072,14 @@ type GetPlaylistMixingAPIReturnTransitionAPIIsTransitionPreviewActive = () => un
 type GetPlaylistMixingAPIReturnTransitionAPIPlayTransition = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPlayTransitionPreview = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 interface GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayer {
@@ -13122,7 +13122,7 @@ type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerGetTransitionPreviewPro
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerGetTransitionPreviewState = () => unknown;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerHandlePlayerStateUpdate = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerIsTransitionPreviewActive = () => unknown;
@@ -13133,7 +13133,7 @@ type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerPlayTransitionPreview =
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerPrepareContext = () => Promise<unknown>;
@@ -13143,7 +13143,7 @@ interface GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerPreviewState {
 }
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerProcessPlayerState = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerSetupPlayerEventListener = () => unknown;
@@ -13154,7 +13154,7 @@ type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerStopTransitionPreview =
   () => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerSubscribeToPreviewState = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerUpdateState = (arg0: any) => unknown;
@@ -13162,7 +13162,7 @@ type GetPlaylistMixingAPIReturnTransitionAPIPreviewPlayerUpdateState = (arg0: an
 type GetPlaylistMixingAPIReturnTransitionAPISetTransitionForTrack = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistMixingAPIReturnTransitionAPIStopTransitionPreview = () => Promise<unknown>;
@@ -13294,7 +13294,7 @@ interface GetPlaylistPermissionsAPIReturnEventsEmitterListenersOperationComplete
 }
 
 type GetPlaylistPermissionsAPIReturnEventsEmitterListenersOperationCompleteItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetPlaylistPermissionsAPIReturnEventsEmitterListenersOperationCompleteItemOptions = Record<
@@ -13328,7 +13328,7 @@ type GetPlaylistPermissionsAPIReturnSetBasePermission = (arg0: any, arg1: any) =
 type GetPlaylistPermissionsAPIReturnSetMemberPermission = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetPlaylistPermissionsAPIReturnSubscribeToMembers = (arg0: any, arg1: any) => unknown;
@@ -13745,7 +13745,7 @@ type GetRecentsAPIReturnGetContents = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 interface GetRecentsAPIReturnPlaylistDataClient {
@@ -14307,7 +14307,7 @@ type GetRootlistAPIReturnEventsEmitCreatePlaylistComplete = (arg0: any, arg1: an
 type GetRootlistAPIReturnEventsEmitCreatePlaylistSync = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitMoveComplete = (arg0: any, arg1: any) => unknown;
@@ -14367,23 +14367,23 @@ interface GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItem {
 }
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemListener5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterListenersOperationCompleteItemOptions = Record<
@@ -14443,7 +14443,7 @@ interface GetRootlistAPIReturnEventsEmitterMetaListenersAddUpdateItemItem {
 }
 
 type GetRootlistAPIReturnEventsEmitterMetaListenersAddUpdateItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterMetaListenersAddUpdateItemItemOptions = Record<
@@ -14477,7 +14477,7 @@ interface GetRootlistAPIReturnEventsEmitterMetaListenersRemoveUpdateItemItem {
 }
 
 type GetRootlistAPIReturnEventsEmitterMetaListenersRemoveUpdateItemItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetRootlistAPIReturnEventsEmitterMetaListenersRemoveUpdateItemItemOptions = Record<
@@ -14743,7 +14743,7 @@ type GetSettingsAPIReturnContentPreferencesAllowExplicitContentGetValue = () => 
 type GetSettingsAPIReturnContentPreferencesAllowExplicitContentSerialize = (arg0: any) => unknown;
 
 type GetSettingsAPIReturnContentPreferencesAllowExplicitContentSetValue = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnContentPreferencesAllowExplicitContentSubs = Set<unknown>;
@@ -14763,7 +14763,7 @@ interface GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowed {
 }
 
 type GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowedDeserialize = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowedGetValue =
@@ -14772,7 +14772,7 @@ type GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowedGetValu
 type GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowedSubs = Set<unknown>;
 
 type GetSettingsAPIReturnContentPreferencesExplicitContentForceDisallowedSubValue = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetSettingsAPIReturnDisplay {
@@ -14830,20 +14830,20 @@ interface GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransition {
 }
 
 type GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransitionDeserializeValue = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransitionGetValue =
   () => Promise<unknown>;
 
 type GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransitionSetValue = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransitionSubs = Set<unknown>;
 
 type GetSettingsAPIReturnDisplayNativeNotificationOnPlayerTransitionSubValue = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetSettingsAPIReturnDisplayNativeOverlayOnMediaKeys {
@@ -15507,7 +15507,7 @@ type GetSettingsAPIReturnQualityPlaybackServiceSetVolume = (arg0: any, arg1: any
 
 type GetSettingsAPIReturnQualityPlaybackServiceSubBufferUnderrun = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityPlaybackServiceSubPlaybackInfo = (arg0: any, arg1: any) => unknown;
@@ -15580,17 +15580,17 @@ interface GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsService {
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceGetDeviceSettings = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceGetSettings = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceGetShuffleState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceOptions = Record<
@@ -15600,17 +15600,17 @@ type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceOptions = Re
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceSetDeviceStreamQuality = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceSetSettings = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceSetShuffleState = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceStreamDeviceSettingFieldChanges =
@@ -15618,7 +15618,7 @@ type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceStreamDevice
 
 type GetSettingsAPIReturnQualityRemoteQualityPlaybackSettingsServiceStreamSettingChanges = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityRemoteQualitySetValue = (arg0: any) => Promise<unknown>;
@@ -15645,11 +15645,11 @@ type GetSettingsAPIReturnQualityStreamingQualityDeserializeValue = (arg0: any) =
 type GetSettingsAPIReturnQualityStreamingQualityGetValue = () => Promise<unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityClampAudioQuality = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityDeserialize = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityGetValue =
@@ -15827,7 +15827,7 @@ type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateA
   Map<unknown, unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiMapKeys = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiProductStateApi {
@@ -15845,7 +15845,7 @@ type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateA
   Record<string, unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSetValues = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubs = Set<
@@ -15925,7 +15925,7 @@ type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateA
 >;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubsItem = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubsItem10 =
@@ -16058,7 +16058,7 @@ type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateA
   () => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubsItem5 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubsItem50 =
@@ -16146,13 +16146,13 @@ type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateA
   () => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualityProductStateApiSubValues = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualitySubs = Set<unknown>;
 
 type GetSettingsAPIReturnQualityStreamingQualityMaxSupportedQualitySubValue = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnQualityStreamingQualitySerializeValue = (arg0: any) => unknown;
@@ -16299,7 +16299,7 @@ interface GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobble {
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobbleGetIncognitoMode = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobbleOptions = Record<
@@ -16309,20 +16309,20 @@ type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobbleOptions = 
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobblePutIncognitoMode = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPIScrobbleSubIncognitoMode = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPISetPrivateSession = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnSocialPrivateSessionPrivateSessionAPISubscribeToPrivateSession = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSettingsAPIReturnSocialPrivateSessionSetValue = (arg0: any) => unknown;
@@ -16370,7 +16370,7 @@ type GetSettingsAPIReturnSocialShareListeningActivityInChatsGetValue = () => Pro
 type GetSettingsAPIReturnSocialShareListeningActivityInChatsSerialize = (arg0: any) => unknown;
 
 type GetSettingsAPIReturnSocialShareListeningActivityInChatsSetValue = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSettingsAPIReturnSocialShareListeningActivityInChatsSubs = Set<unknown>;
@@ -16568,21 +16568,21 @@ interface GetSettingsAPIReturnViewportZoomZoomApiZoomEsperanto {
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomEsperantoGetZoomLevel = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomEsperantoOptions = Record<string, unknown>;
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomEsperantoSetZoomLevel = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomEsperantoZoomIn = (arg0: any, arg1: any) => unknown;
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomEsperantoZoomOut = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSettingsAPIReturnViewportZoomZoomApiZoomIn = () => unknown;
@@ -16719,7 +16719,7 @@ interface GetShowAPIReturnEventsEmitterMetaListenersAddUpdateResumeEpisodeLinkIt
 }
 
 type GetShowAPIReturnEventsEmitterMetaListenersAddUpdateResumeEpisodeLinkItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetShowAPIReturnEventsEmitterMetaListenersAddUpdateResumeEpisodeLinkItemOptions = Record<
@@ -16740,7 +16740,7 @@ interface GetShowAPIReturnEventsEmitterMetaListenersRemoveUpdateResumeEpisodeLin
 }
 
 type GetShowAPIReturnEventsEmitterMetaListenersRemoveUpdateResumeEpisodeLinkItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetShowAPIReturnEventsEmitterMetaListenersRemoveUpdateResumeEpisodeLinkItemOptions = Record<
@@ -16753,7 +16753,7 @@ type GetShowAPIReturnEventsSubscriptions = Map<unknown, unknown>;
 type GetShowAPIReturnFetchItemDetails = (arg0: any) => Promise<unknown>;
 
 type GetShowAPIReturnFetchItemsDetailsProgressResumptionFromShowResponse = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetShowAPIReturnGetAccessInfo = (arg0: any) => Promise<unknown>;
@@ -17059,7 +17059,7 @@ interface GetShuffleAPIReturnEventsEmitterListenersAvailabilityUpdateItem {
 }
 
 type GetShuffleAPIReturnEventsEmitterListenersAvailabilityUpdateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetShuffleAPIReturnEventsEmitterListenersAvailabilityUpdateItemOptions = Record<
@@ -17081,7 +17081,7 @@ interface GetShuffleAPIReturnEventsEmitterListenersUpdateCompleteItem {
 }
 
 type GetShuffleAPIReturnEventsEmitterListenersUpdateCompleteItemListener = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetShuffleAPIReturnEventsEmitterListenersUpdateCompleteItemListener2 = (arg0: any) => unknown;
@@ -17322,7 +17322,7 @@ interface GetSocialConnectAPIReturnEventsEmitterListenersSessionEndedItem {
 }
 
 type GetSocialConnectAPIReturnEventsEmitterListenersSessionEndedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSocialConnectAPIReturnEventsEmitterListenersSessionEndedItemOptions = Record<
@@ -17339,7 +17339,7 @@ interface GetSocialConnectAPIReturnEventsEmitterListenersSessionMessageItem {
 }
 
 type GetSocialConnectAPIReturnEventsEmitterListenersSessionMessageItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSocialConnectAPIReturnEventsEmitterListenersSessionMessageItemOptions = Record<
@@ -17420,7 +17420,7 @@ type GetSocialConnectAPIReturnFetchShortLinkInFlightCacheCreate = (arg0: any, ar
 
 type GetSocialConnectAPIReturnFetchShortLinkInFlightCacheDeleteOnSettle = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetSocialConnectAPIReturnFetchShortLinkInFlightCacheSet = (arg0: any, arg1: any) => unknown;
@@ -17448,7 +17448,7 @@ type GetSocialConnectAPIReturnGetSessionInfo = (arg0: any) => Promise<unknown>;
 type GetSocialConnectAPIReturnGetShortInviteLink = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnGetShortInviteLinks = (arg0: any, arg1: any) => Promise<unknown>;
@@ -17465,7 +17465,7 @@ type GetSocialConnectAPIReturnJoinSession = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnKickAllParticipants = (arg0: any) => Promise<unknown>;
@@ -17538,7 +17538,7 @@ interface GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONMESSAGEIt
 }
 
 type GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONMESSAGEItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONMESSAGEItemOptions = Record<
@@ -17555,7 +17555,7 @@ interface GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONUPDATEIte
 }
 
 type GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONUPDATEItemListener = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnServiceEventsEmitterListenersSESSIONUPDATEItemOptions = Record<
@@ -17856,7 +17856,7 @@ type GetSocialConnectAPIReturnSocialConnectBroadcastingAPIGetLocalNetSessionDevi
 type GetSocialConnectAPIReturnSocialConnectBroadcastingAPIHandleBroadcastStatusUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetSocialConnectAPIReturnSocialConnectBroadcastingAPILatestScanningResponse {
@@ -17868,7 +17868,7 @@ type GetSocialConnectAPIReturnSocialConnectBroadcastingAPILatestScanningResponse
 
 type GetSocialConnectAPIReturnSocialConnectBroadcastingAPISetBroadcastStatus = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectBroadcastingAPIStartBroadcastingBluetoothSessionDevice =
@@ -17921,51 +17921,51 @@ interface GetSocialConnectAPIReturnSocialConnectServiceClient {
 type GetSocialConnectAPIReturnSocialConnectServiceClientCreateSession = () => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientDeleteSession = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientFetchCurrentSession = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientGetSessionInfo = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientJoinSession = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientKickAllParticipants = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientLeaveSession = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientOnConnected = (arg0: any) => unknown;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientRemoveSessionMember = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientSetBroadcastStatus = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientSetParticipantVolumeControl = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnSocialConnectServiceClientSetQueueOnlyMode = (
-  arg0: any,
+  arg0: any
 ) => Promise<unknown>;
 
 type GetSocialConnectAPIReturnWaitForActiveOrLocalDeviceId = () => unknown;
@@ -18009,12 +18009,12 @@ type GetStandalonePlayerCoordinatorAPIReturnInstancesGet = (arg0: any) => unknow
 
 type GetStandalonePlayerCoordinatorAPIReturnInstancesGetOrInsert = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnInstancesGetOrInsertComputed = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnInstancesHas = (arg0: any) => unknown;
@@ -18048,23 +18048,23 @@ interface GetStandalonePlayerCoordinatorAPIReturnOutroReporter {
 }
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterCalculateIsVideoOn = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterCreatePlaybackMetadataStore = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterDeregister = (arg0: any) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterGetPlaybackMetadataStore = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnDurationChanged = (arg0: any) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnMediaPlaybackModeChanged = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnMutedChanged = (arg0: any) => unknown;
@@ -18072,7 +18072,7 @@ type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnMutedChanged = (arg0:
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnPaused = (arg0: any) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnPlaybackSpeedChanged = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnPlaying = (arg0: any) => unknown;
@@ -18084,26 +18084,26 @@ type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnProgress = (arg0: any
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnResumeFulfilled = (arg0: any) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnTrackingDataCreated = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnTrackingDataFinalized = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnVideoSurfaceChanged = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterOnVideoVisibilityChanged = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterRegister = (arg0: any) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnOutroReporterSendSegment = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIConnectServiceClient {
@@ -18214,19 +18214,19 @@ interface GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListene
 }
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListenersVolumeItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListenersVolumeItemListener2 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListenersVolumeItemListener3 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListenersVolumeItemListener4 = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIEventsEmitterListenersVolumeItemOptions =
@@ -18305,7 +18305,7 @@ type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIMuteHelperIsMuted = () =>
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIMuteHelperMute = () => Promise<unknown>;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIMuteHelperOnVolumeChange = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIMuteHelperSetMuted = (arg0: any) => unknown;
@@ -18357,27 +18357,27 @@ interface GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageService {
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceDeleteExpiredItems = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceDeleteUnlockedItems = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceGetCacheSizeLimit = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceGetFileRanges = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceGetStats = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceOptions = Record<
@@ -18387,7 +18387,7 @@ type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceOptions = R
 
 type GetStandalonePlayerCoordinatorAPIReturnPlaybackAPIStorageServiceSetCacheSizeLimit = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetStandalonePlayerCoordinatorAPIReturnSetupPlayerListeners = () => unknown;
@@ -18395,7 +18395,7 @@ type GetStandalonePlayerCoordinatorAPIReturnSetupPlayerListeners = () => unknown
 type GetStandalonePlayerCoordinatorAPIReturnSetupStandalonePlayerListeners = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetSuperConnectAPI = () => GetSuperConnectAPIReturn;
@@ -22109,7 +22109,7 @@ type GetTransportReturnConnectionObserverNavigatorCanShare = () => unknown;
 type GetTransportReturnConnectionObserverNavigatorClearAppBadge = () => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorClearOriginJoinedAdInterestGroups = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorClipboard {
@@ -22146,14 +22146,14 @@ interface GetTransportReturnConnectionObserverNavigatorConnection {
 
 type GetTransportReturnConnectionObserverNavigatorConnectionAddEventListener = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorConnectionDispatchEvent = (arg0: any) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorConnectionRemoveEventListener = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorConnectionWhen = (arg0: any) => unknown;
@@ -22177,7 +22177,7 @@ type GetTransportReturnConnectionObserverNavigatorCredentialsStore = (arg0: any)
 
 type GetTransportReturnConnectionObserverNavigatorDeprecatedReplaceInURN = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorDeprecatedURNToURL = (arg0: any) => unknown;
@@ -22200,7 +22200,7 @@ interface GetTransportReturnConnectionObserverNavigatorGeolocation {
 type GetTransportReturnConnectionObserverNavigatorGeolocationClearWatch = (arg0: any) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGeolocationGetCurrentPosition = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGeolocationWatchPosition = (arg0: any) => unknown;
@@ -22212,13 +22212,13 @@ type GetTransportReturnConnectionObserverNavigatorGetGamepads = () => unknown;
 type GetTransportReturnConnectionObserverNavigatorGetInstalledRelatedApps = () => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGetInterestGroupAdAuctionData = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGetUserMedia = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorGpu {
@@ -22243,11 +22243,11 @@ interface GetTransportReturnConnectionObserverNavigatorGpuWgslLanguageFeatures {
 type GetTransportReturnConnectionObserverNavigatorGpuWgslLanguageFeaturesEntries = () => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGpuWgslLanguageFeaturesForEach = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGpuWgslLanguageFeaturesHas = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorGpuWgslLanguageFeaturesKeys = () => unknown;
@@ -22320,7 +22320,7 @@ interface GetTransportReturnConnectionObserverNavigatorManaged {
 }
 
 type GetTransportReturnConnectionObserverNavigatorManagedGetManagedConfiguration = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorMediaCapabilities {
@@ -22329,11 +22329,11 @@ interface GetTransportReturnConnectionObserverNavigatorMediaCapabilities {
 }
 
 type GetTransportReturnConnectionObserverNavigatorMediaCapabilitiesDecodingInfo = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorMediaCapabilitiesEncodingInfo = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorMediaDevices {
@@ -22372,15 +22372,15 @@ interface GetTransportReturnConnectionObserverNavigatorMediaSession {
 
 type GetTransportReturnConnectionObserverNavigatorMediaSessionSetActionHandler = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorMediaSessionSetCameraActive = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorMediaSessionSetMicrophoneActive = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorMediaSessionSetPositionState = () => unknown;
@@ -22649,17 +22649,17 @@ interface GetTransportReturnConnectionObserverNavigatorProtectedAudience {
 }
 
 type GetTransportReturnConnectionObserverNavigatorProtectedAudienceQueryFeatureSupport = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorRegisterProtocolHandler = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorRequestMediaKeySystemAccess = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorRequestMIDIAccess = () => unknown;
@@ -22746,7 +22746,7 @@ type GetTransportReturnConnectionObserverNavigatorStoragePersisted = () => unkno
 
 type GetTransportReturnConnectionObserverNavigatorUnregisterProtocolHandler = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorUpdateAdInterestGroups = () => unknown;
@@ -22788,7 +22788,7 @@ interface GetTransportReturnConnectionObserverNavigatorUserAgentDataBrandsItem {
 }
 
 type GetTransportReturnConnectionObserverNavigatorUserAgentDataGetHighEntropyValues = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorUserAgentDataToJSON = () => unknown;
@@ -22834,7 +22834,7 @@ type GetTransportReturnConnectionObserverNavigatorWakeLockRequest = () => unknow
 type GetTransportReturnConnectionObserverNavigatorWebkitGetUserMedia = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorWebkitTemporaryStorage {
@@ -22843,11 +22843,11 @@ interface GetTransportReturnConnectionObserverNavigatorWebkitTemporaryStorage {
 }
 
 type GetTransportReturnConnectionObserverNavigatorWebkitTemporaryStorageQueryUsageAndQuota = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnConnectionObserverNavigatorWebkitTemporaryStorageRequestQuota = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetTransportReturnConnectionObserverNavigatorWindowControlsOverlay {
@@ -23619,7 +23619,7 @@ interface GetTransportReturnPluginsDealerMediatorListenersPluginConnectionInfoIt
 }
 
 type GetTransportReturnPluginsDealerMediatorListenersPluginConnectionInfoItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorListenersPluginConnectionInfoItemOptions = Record<
@@ -23636,7 +23636,7 @@ interface GetTransportReturnPluginsDealerMediatorListenersPluginDisconnectedItem
 }
 
 type GetTransportReturnPluginsDealerMediatorListenersPluginDisconnectedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorListenersPluginDisconnectedItemOptions = Record<
@@ -23745,7 +23745,7 @@ interface GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportAuthen
 }
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportAuthenticateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportAuthenticateItemOptions =
@@ -23760,7 +23760,7 @@ interface GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportConnec
 }
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportConnectItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersAddTransportConnectItemOptions = Record<
@@ -23782,7 +23782,7 @@ interface GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportAut
 }
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportAuthenticateItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportAuthenticateItemOptions =
@@ -23797,7 +23797,7 @@ interface GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportCon
 }
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportConnectItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDealerMediatorMetaListenersRemoveTransportConnectItemOptions = Record<
@@ -23822,7 +23822,7 @@ type GetTransportReturnPluginsDealerOnTransportConnect = (arg0: any) => unknown;
 type GetTransportReturnPluginsDealerOnTransportDisconnect = () => unknown;
 
 type GetTransportReturnPluginsDesktoplifecyclepluginAddOnAuthenticationFailed = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetTransportReturnPluginsDesktoplifecyclepluginAttach = (arg0: any, arg1: any) => unknown;
@@ -24038,7 +24038,7 @@ type GetUBIAppStateMonitorReturnFindPageByIdentity = (arg0: any, arg1: any, arg2
 type GetUBIAppStateMonitorReturnFindPageByPaneIdentity = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetUBIAppStateMonitorReturnFindPageByVisitIdentity = (arg0: any, arg1: any) => unknown;
@@ -24057,7 +24057,7 @@ type GetUBIAppStateMonitorReturnHandlePresentationUpdate = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetUBIAppStateMonitorReturnIsMainPaneMode = (arg0: any) => unknown;
@@ -24266,7 +24266,7 @@ type GetUBILoggerReturnLogImpressionSegment = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetUBILoggerReturnLogImpressionV2 = (arg0: any, arg1: any, arg2: any, arg3: any) => unknown;
@@ -24393,7 +24393,7 @@ type GetUBILoggerReturnPageTransitionLoggerByChainMainConsumePendingNavigation =
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainDecorateUrlWithUBIContext = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainGeneratePageInstanceId = () => unknown;
@@ -24409,30 +24409,30 @@ type GetUBILoggerReturnPageTransitionLoggerByChainMainLogBackgroundTransition = 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogClientStart = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogForegroundTransition = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogNavigation = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogPageTransitionTriggeredByReason = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogPageView = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainLogSyntheticPageTransition = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainNavigationCompleted = (arg0: any) => unknown;
@@ -24456,19 +24456,19 @@ type GetUBILoggerReturnPageTransitionLoggerByChainMainPageTransitionManagerAuthe
   () => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainPageTransitionManagerLogClientStarted = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainPageTransitionManagerLogNavigation = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainRestoreContextFromUrl = () => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainSetUBIContextFromToken = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnPageTransitionLoggerByChainMainToPrevPageInfo = (arg0: any) => unknown;
@@ -24604,7 +24604,7 @@ type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderInitialize
   () => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderPersist = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderReset = () => unknown;
@@ -24613,19 +24613,19 @@ type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageMan
   () => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageManagerGetItem = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageManagerGetStorageType =
   () => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageManagerRemoveItem = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageManagerSetItem = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetUBILoggerReturnUbiLoggerContextualProvidersAppInstanceProviderStorageManagerStorageAdapter {
@@ -24710,7 +24710,7 @@ type GetUBILoggerReturnUbiLoggerLogAuthImpression = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerLogAuthInteraction = (arg0: any, arg1: any, arg2: any) => unknown;
@@ -24720,7 +24720,7 @@ type GetUBILoggerReturnUbiLoggerLogImpression = (
   arg1: any,
   arg2: any,
   arg3: any,
-  arg4: any,
+  arg4: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerLogImpressionSegment = (arg0: any, arg1: any) => unknown;
@@ -24729,20 +24729,20 @@ type GetUBILoggerReturnUbiLoggerLogInteraction = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerLogNonAuthImpression = (
   arg0: any,
   arg1: any,
   arg2: any,
-  arg3: any,
+  arg3: any
 ) => unknown;
 
 type GetUBILoggerReturnUbiLoggerLogNonAuthInteraction = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetUpdateAPI = () => GetUpdateAPIReturn;
@@ -24951,7 +24951,7 @@ type GetVideoAPIReturnConnectVolumeServiceLocalVolume = (arg0: any, arg1: any) =
 
 type GetVideoAPIReturnConnectVolumeServiceOnEnablingLocalPlayback = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnConnectVolumeServiceOptions = Record<string, unknown>;
@@ -25022,7 +25022,7 @@ interface GetVideoAPIReturnEventsEmitterListenersPictureInPictureChangedItem {
 }
 
 type GetVideoAPIReturnEventsEmitterListenersPictureInPictureChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnEventsEmitterListenersPictureInPictureChangedItemOptions = Record<
@@ -25039,7 +25039,7 @@ interface GetVideoAPIReturnEventsEmitterListenersSubtitleLanguagesChangedItem {
 }
 
 type GetVideoAPIReturnEventsEmitterListenersSubtitleLanguagesChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnEventsEmitterListenersSubtitleLanguagesChangedItemOptions = Record<
@@ -25056,7 +25056,7 @@ interface GetVideoAPIReturnEventsEmitterListenersSubtitlePreferredLanguageChange
 }
 
 type GetVideoAPIReturnEventsEmitterListenersSubtitlePreferredLanguageChangedItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnEventsEmitterListenersSubtitlePreferredLanguageChangedItemOptions = Record<
@@ -25326,7 +25326,7 @@ interface GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpoint
 }
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpointCreate = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpointSchema {
@@ -25373,13 +25373,13 @@ type GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpointSchem
   Array<string>;
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpointSend = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingEndVideoEndVideoEndpointUpdate = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStream {
@@ -25398,18 +25398,18 @@ interface GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamFromPartial
 }
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamFromPartialsStreamEndRequest = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamFromPartialsStreamProgressRequest =
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamFromPartialsStreamSeekRequest = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamFromPartialsStreamStartRequest = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorConfigLoggingRawCoreStreamProductStateProvider {
@@ -25484,7 +25484,7 @@ interface GetVideoAPIReturnVideoCoordinatorListenersPLAYERINITIALIZEDItem {
 }
 
 type GetVideoAPIReturnVideoCoordinatorListenersPLAYERINITIALIZEDItemListener = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorListenersPLAYERINITIALIZEDItemOptions = Record<
@@ -25514,7 +25514,7 @@ interface GetVideoAPIReturnVideoCoordinatorPlayerInterrupter {
 }
 
 type GetVideoAPIReturnVideoCoordinatorPlayerInterrupterCheckForInterruption = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerInterrupterClear = () => unknown;
@@ -25523,7 +25523,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerInterrupterGetStopPosition = () => u
 
 type GetVideoAPIReturnVideoCoordinatorPlayerInterrupterSetStopPosition = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorPlayerRouter {
@@ -25671,11 +25671,11 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerCoreVideoPlayerReporte
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerCoreVideoPlayerReporterListenersERROR = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerCoreVideoPlayerReporterListenersPAUSED = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerCoreVideoPlayerReporterListenersPLAYING =
@@ -26205,22 +26205,22 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPl
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandleCapped = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandleDurationChanged =
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandleEnded = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandleError = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandlePaused = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerListPlayerHandlePauseFulfilled =
@@ -27172,7 +27172,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterAdPlayerStandalonePlayerMetaLi
   Record<string, unknown>;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterGetNonMatchingPlayerByPlaybackId = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterGetPlayerByPlaybackId = (arg0: any) => unknown;
@@ -27359,25 +27359,25 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerRepor
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnError = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnMarkerReached =
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnPaused = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnPlaying = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnPositionChanged =
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnProgress = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnSeeking =
@@ -27387,7 +27387,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerRepor
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnTrackEnded = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterOnVideoSurfaceChanged =
@@ -27400,7 +27400,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerRepor
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterSendAdvance = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerReporterSendContextPlayerError =
@@ -27425,7 +27425,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCoreVideoPlayerRepor
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCreateMarkerPlaybackObserver = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCreateStandalonePlayer = () => unknown;
@@ -27433,7 +27433,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerCreateStandalonePlay
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerFailPlayback = () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerGeneratePlaybackObservers = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerGetCurrentState = () => unknown;
@@ -27451,7 +27451,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerHandleRoyaltyReporti
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerHasValidRoyaltyReporting = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerHideNode = () => unknown;
@@ -27459,14 +27459,14 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerHideNode = () => unk
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerHideSubtitles = () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerInitEventBridge = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerOnPlayerInitializationDone =
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerOnPlayerInitializationFailed = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerOnStateChanged = (arg0: any) => unknown;
@@ -27478,7 +27478,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerPause = () => unknow
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerPlayTracks = (
   arg0: any,
   arg1: any,
-  arg2: any,
+  arg2: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerRebuildMarkers = (arg0: any) => unknown;
@@ -27490,19 +27490,19 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerResume = () => unkno
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSeek = (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSetPlaybackSpeed = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSetPlayerVisibility = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSetSubtitleLanguage = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSetVideoSurface = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerSetVolume = (arg0: any) => unknown;
@@ -28027,7 +28027,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   (arg0: any, arg1: any, arg2: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerClear = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerDeactivateCueEvents =
@@ -28145,7 +28145,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerInit = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerListeners {
@@ -29023,7 +29023,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerLoad = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 interface GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerMetaListeners {
@@ -29038,7 +29038,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   Record<string, unknown>;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerNext = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerPause =
@@ -29046,7 +29046,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerPlay = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerPreloadTrack =
@@ -29056,7 +29056,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerPrevious = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerReplaceCurrentList =
@@ -29066,7 +29066,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSeek = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetIsVideoVisible =
@@ -29085,7 +29085,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetMuted = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetPlaybackSpeed =
@@ -29095,7 +29095,7 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetShuffle = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetSubtitleLanguage =
@@ -29108,14 +29108,14 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerList
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerSetVolume = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerShowSubtitles =
   () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerStop = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerListPlayerTogglePlay =
@@ -29157,16 +29157,16 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPaus
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPlayList = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPlayTracks = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPreloadTrack = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPreviousTrack =
@@ -29174,52 +29174,52 @@ type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerPrev
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerResolveTrack = (
   arg0: any,
-  arg1: any,
+  arg1: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerResume = () => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSeek = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetIsVideoVisible = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetMediaPlaybackMode = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetMediaPlaybackQuality =
   (arg0: any) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetMuted = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetPlaybackSpeed = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetPlayerVisibility = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetSubtitleLanguage = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetVideoResolution = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetVideoSurface = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerSetVolume = (
-  arg0: any,
+  arg0: any
 ) => unknown;
 
 type GetVideoAPIReturnVideoCoordinatorPlayerRouterMainPlayerStandalonePlayerShowSubtitles =

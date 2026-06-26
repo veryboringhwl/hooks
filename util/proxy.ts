@@ -11,7 +11,7 @@ export const proxy = (init: RequestInfo | URL, options: RequestInit = {}) => {
 const localProxyUrl = new URL(`http://${LOCAL_PROXY_HOST}/proxy/`);
 export const localProxy = (
   input: RequestInfo | URL,
-  init: RequestInit = {},
+  init: RequestInit = {}
 ): [Request, RequestInit] => {
   let url: URL;
   if (typeof input === "string") {
@@ -51,7 +51,7 @@ export const localProxy = (
 
 export const remoteProxyA = (
   input: RequestInfo | URL,
-  init: RequestInit = {},
+  init: RequestInit = {}
 ): [Request, RequestInit] => {
   let url: URL;
   if (typeof input === "string") {
@@ -90,7 +90,7 @@ export const remoteProxyA = (
 
 export const remoteProxyB = (
   input: RequestInfo | URL,
-  init: RequestInit = {},
+  init: RequestInit = {}
 ): [Request, RequestInit] => {
   let url: URL | string;
   if (typeof input === "string") {
@@ -119,7 +119,7 @@ export const remoteProxyB = (
     ["X-Referer", "Referer"],
     ["X-Origin", "Origin"],
     ["X-User-Agent", "User-Agent"],
-    ["X-X-Real-Ip", "X-Real-Ip"],
+    ["X-X-Real-Ip", "X-Real-Ip"]
   ]) {
     if (!k || !kp) continue;
     const v = headers.get(k);
