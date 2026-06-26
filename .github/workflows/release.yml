@@ -41,7 +41,7 @@ jobs:
         uses: denoland/setup-deno@v2
 
       - name: Compile TypeScript
-        run: deno transpile **/*.ts --outdir dist
+        run: deno task build
 
       # pacman on arch linux uses lvl 20
       # but 20-22 isnt multithreaded and takes ages

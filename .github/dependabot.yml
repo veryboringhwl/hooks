@@ -1,13 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "bun"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "@typescript/native-preview"
-        versions: ["*"]
-
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
