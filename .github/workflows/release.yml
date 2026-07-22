@@ -6,6 +6,12 @@ on:
       tag:
         description: "Release version (without v prefix)"
         required: true
+      spotify_min:
+        description: "Minimum Spotify version (e.g. 1.2.92)"
+        required: true
+      spotify_max:
+        description: "Maximum Spotify version (e.g. 1.2.95, or 'latest' for open-ended)"
+        required: true
 
 jobs:
   publish:
@@ -27,9 +33,13 @@ jobs:
       # but 20-22 isnt multithreaded and takes ages
       - name: Package hooks into tar.zst
         run: tar -I 'zstd -19 -T0' -cf hooks.tar.zst -C dist .
+
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
           tag_name: v${{ inputs.tag }}
+          body: |
+            spotify_min: ${{ inputs.spotify_min }}
+            spotify_max: ${{ inputs.spotify_max }}
           files: hooks.tar.zst
           fail_on_unmatched_files: true

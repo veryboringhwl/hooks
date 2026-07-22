@@ -9,6 +9,12 @@ on:
         required: true
         default: patch
         options: [patch, minor, major]
+      spotify_min:
+        description: "Minimum Spotify version for this hooks release (e.g. 1.2.92)"
+        required: true
+      spotify_max:
+        description: "Maximum Spotify version (e.g. 1.2.95, or 'latest' for open-ended)"
+        required: true
 
 jobs:
   bump:
@@ -56,5 +62,9 @@ jobs:
             });
             await github.rest.actions.createWorkflowDispatch({
               ...context.repo, workflow_id: 'release.yml', ref: 'main',
-              inputs: { tag: process.env.VERSION }
+              inputs: {
+                tag: process.env.VERSION,
+                spotify_min: '${{ inputs.spotify_min }}',
+                spotify_max: '${{ inputs.spotify_max }}'
+              }
             });
